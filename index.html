@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhoIsThatQuotemon?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>WhoIsThatQuotemon?</h1>
+        <p>FYI: If the quote is from a movie sequel or prequel you dont have to get that right. EG: A quote from Back To The future 2, you only need to type: Back To The Future</p>
+        <button id="startButton">Start Guessing!</button>
+    </div>
+
+    <div id="game" style="display:none;">
+        <div id="quote"></div>
+        <input type="text" id="guess" placeholder="Your guess">
+        <button id="submitGuess">Submit</button>
+        <div id="feedback"></div>
+        <button id="nextQuote">Next Quote</button>
+        <div id="score">Score: 0</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

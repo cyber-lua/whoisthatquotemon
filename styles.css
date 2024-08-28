@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: 'Press Start 2P', cursive; /* Retro font */
+    background-color: #f8f9fa; /* Light background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Pokedex-style Container */
+.container {
+    background-color: #ff3b30; /* Red color like a Pokedex */
+    border: 5px solid #333333;
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+/* Title Style */
+h1 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0 #000000;
+}
+
+/* Quote Box */
+#quote {
+    background-color: #ffffff;
+    color: #000000;
+    border: 3px solid #333333;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Input Field */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #333333;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0 5px #004085;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+button#hint {
+    background-color: #ffcc00;
+    color: #333333;
+}
+
+button#hint:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+/* Feedback Message */
+#feedback {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Scoreboard */
+#score {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #333333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Screen Style (like a Pokedex screen) */
+#game {
+    background-color: #99ccff; /* Blue screen background */
+    border: 5px solid #333333;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    min-height: 250px;
+}
+
